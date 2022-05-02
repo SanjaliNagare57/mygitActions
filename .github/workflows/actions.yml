@@ -9,7 +9,7 @@ jobs:
       - name: List Files
         run: | 
           pwd
-          ls-a
+          ls -a
 
 # Action too see how checkout works
       - name: Checkout
@@ -18,7 +18,7 @@ jobs:
       - name: List Files after checkout
         run: | 
           pwd
-          ls-a
+          ls -a
 
       - name: Simple JS Action
         id: greet   # The id is created to refrence a particular step 
