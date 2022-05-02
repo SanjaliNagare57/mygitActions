@@ -14,7 +14,8 @@ jobs:
           node -v
           npm -v
       
-      - name: python Command #(trying to use another shell)
+      - name: python Command  #(trying to use another shell)
         run: |
           import platform
           print(platform.processor())
+        shell: python
