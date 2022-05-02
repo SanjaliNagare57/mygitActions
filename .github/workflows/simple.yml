@@ -20,7 +20,7 @@ jobs:
           print(platform.processor())
         shell: python
 
-jobs:
+#new job starts here
   run-windows-commands:
     run-on: windows-latest
     steps: 
