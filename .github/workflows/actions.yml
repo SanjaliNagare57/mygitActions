@@ -10,6 +10,8 @@ jobs:
         run: | 
           pwd
           ls -a
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
 
 # Action too see how checkout works
       - name: Checkout
