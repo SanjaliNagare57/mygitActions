@@ -23,6 +23,7 @@ jobs:
 #new job starts here
   run-windows-commands:
     runs-on: windows-latest
+    needs: ["run-shell-command"] #Creating dependency on two jobs
     steps: 
       - name: Directory PowerShell
         run: Get-Location
