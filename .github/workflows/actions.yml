@@ -9,7 +9,17 @@ jobs:
       - name: List Files
         run: | 
           pwd
-          ls
+          ls-a
+
+# Action too see how checkout works
+      - name: Checkout
+        uses: action/checkout@v1
+
+      - name: List Files after checkout
+        run: | 
+          pwd
+          ls-a
+
       - name: Simple JS Action
         id: greet   # The id is created to refrence a particular step 
         uses: actions/hello-world-javascript-action@v1
