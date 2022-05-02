@@ -13,7 +13,7 @@ jobs:
 
 # Action too see how checkout works
       - name: Checkout
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
 
       - name: List Files after checkout
         run: | 
